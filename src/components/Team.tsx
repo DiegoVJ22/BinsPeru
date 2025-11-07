@@ -8,6 +8,10 @@ import {
 	CardTitle,
 } from '@/components/ui/card';
 import { FaTelegram } from 'react-icons/fa';
+import AdamPerfil from '/src/assets/adam.jpg';
+import CaputinPerfil from '/src/assets/caputin.avif';
+import ElmerPerfil from '/src/assets/elmer.avif';
+import ThorPerfil from '/src/assets/thor.avif';
 
 interface TeamProps {
 	imageUrl: string;
@@ -23,7 +27,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
 	{
-		imageUrl: '/src/assets/adam.jpg',
+		imageUrl: AdamPerfil,
 		name: 'ADAM',
 		position: '@owneradam',
 		description: 'FUNDADOR',
@@ -34,7 +38,7 @@ const teamList: TeamProps[] = [
 		],
 	},
 	{
-		imageUrl: '/src/assets/caputin.avif',
+		imageUrl: CaputinPerfil,
 		name: 'Caputin',
 		position: '@fuxkcaputin',
 		description: 'CO-FUNDADOR',
@@ -45,7 +49,7 @@ const teamList: TeamProps[] = [
 		],
 	},
 	{
-		imageUrl: '/src/assets/elmer.avif',
+		imageUrl: ElmerPerfil,
 		name: 'Elmer Galarga',
 		position: '@Elmergalarga1',
 		description: 'CO-FUNDADOR',
@@ -56,7 +60,7 @@ const teamList: TeamProps[] = [
 		],
 	},
 	{
-		imageUrl: '/src/assets/thor.avif',
+		imageUrl: ThorPerfil,
 		name: 'Thor',
 		position: '@KingThorV',
 		description: 'CO-FUNDADOR',

@@ -3,7 +3,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { FaUsers } from 'react-icons/fa';
 import { MdDiscount } from 'react-icons/md';
 import { AiFillSafetyCertificate } from 'react-icons/ai';
-
+import BeneficiosImage from '/src/assets/beneficios.png';
 interface ServiceProps {
 	title: string;
 	description: string;
@@ -67,7 +67,7 @@ export const Services = () => {
 				</div>
 
 				<img
-					src="src/assets/beneficios.png"
+					src={BeneficiosImage}
 					className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
 					alt="About services"
 				/>

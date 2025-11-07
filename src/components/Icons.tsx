@@ -1,3 +1,5 @@
+import BinsPeruLogo from '@/assets/logo.jpg';
+
 export const LogoIcon = () => {
 	return (
 		<svg
@@ -20,7 +22,7 @@ export const LogoIcon = () => {
 export const BinsPeruIcon = () => {
 	return (
 		<img
-			src="/src/assets/logo.jpg" // Ajusta la ruta según donde tengas la imagen
+			src={BinsPeruLogo} // Ajusta la ruta según donde tengas la imagen
 			alt="Logo"
 			className="w-8 h-8 mr-2 rounded-full md:w-10 md:h-9" // Mantiene las mismas dimensiones que el SVG original
 		/>

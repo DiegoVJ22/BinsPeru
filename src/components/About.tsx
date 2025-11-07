@@ -1,4 +1,5 @@
 import { Statistics } from './Statistics';
+import AboutImage from '/src/assets/about.png';
 
 export const About = () => {
 	return (
@@ -6,7 +7,7 @@ export const About = () => {
 			<div className="bg-muted/50 border rounded-lg py-12">
 				<div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
 					<img
-						src="src/assets/about.png"
+						src={AboutImage}
 						alt=""
 						className="w-[350px] object-contain rounded-full border-4 border-primary/20 mx-auto md:mx-0 "
 					/>

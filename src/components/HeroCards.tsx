@@ -26,6 +26,8 @@ export const DiscountPercentIcon = () => {
 		/>
 	);
 };
+import AdamPerfil from '/src/assets/adam.jpg';
+import BinsPeruLogo from '/src/assets/logo.jpg';
 
 export const HeroCards = () => {
 	return (
@@ -36,7 +38,7 @@ export const HeroCards = () => {
 					<Avatar>
 						<AvatarImage
 							alt=""
-							src="/src/assets/adam.jpg"
+							src={AdamPerfil}
 							className="border-2 border-primary/30 shadow-lg shadow-primary/20 rounded-full"
 						/>
 						<AvatarFallback>SH</AvatarFallback>
@@ -66,7 +68,7 @@ export const HeroCards = () => {
 			<Card className="absolute right-[20px] top-8 w-80 flex flex-col justify-center items-center bg-background/95 backdrop-blur-sm border border-primary/15 rounded-2xl drop-shadow-xl shadow-black/10 dark:shadow-white/10">
 				<CardHeader className="mt-16 flex justify-center items-center pb-2">
 					<img
-						src="/src/assets/logo.jpg"
+						src={BinsPeruLogo}
 						alt="user avatar"
 						className="absolute grayscale-[0%] -top-12 rounded-full w-32 h-32 aspect-square object-cover"
 					/>
