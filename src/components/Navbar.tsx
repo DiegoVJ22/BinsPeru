@@ -95,7 +95,7 @@ export const Navbar = () => {
 									<div className="gap-2 flex">
 										<a
 											rel="noreferrer noopener"
-											href="https://telegram.org"
+											href="https://t.me/binsperu"
 											target="_blank"
 											className={`border ${buttonVariants({
 												variant: 'secondary',
@@ -106,7 +106,7 @@ export const Navbar = () => {
 
 										<a
 											rel="noreferrer noopener"
-											href="https://facebook.com"
+											href="https://www.facebook.com/profile.php?id=61570033945970"
 											target="_blank"
 											className={`border ${buttonVariants({
 												variant: 'secondary',
@@ -117,7 +117,7 @@ export const Navbar = () => {
 
 										<a
 											rel="noreferrer noopener"
-											href="https://tiktok.com"
+											href="https://www.tiktok.com/@binsperu.pe?lang=es"
 											target="_blank"
 											className={`border ${buttonVariants({
 												variant: 'secondary',
