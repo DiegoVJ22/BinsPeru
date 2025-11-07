@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { buttonVariants } from './ui/button';
 import { HeroCards } from './HeroCards';
 import { FaTelegram } from 'react-icons/fa';
+import BinsPeruLogo from '/src/assets/logo.jpg';
 
 export const Hero = () => {
 	const [memberCount, setMemberCount] = useState(0);
@@ -37,7 +38,7 @@ export const Hero = () => {
 				{/* Logo / imagen solo en móvil */}
 				<div className="lg:hidden flex justify-center mt-4">
 					<img
-						src="/src/assets/logo.jpg"
+						src={BinsPeruLogo}
 						alt="BINS PERÚ"
 						className="w-36 h-36 rounded-full border-2 border-primary/30 shadow-lg shadow-primary/20"
 					/>
