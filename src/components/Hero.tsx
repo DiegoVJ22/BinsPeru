@@ -28,7 +28,7 @@ export const Hero = () => {
 
 	return (
 		<section className="container min-h-screen grid lg:grid-cols-2 place-items-center py-10 md:py-32 gap-10">
-			<div className="text-center lg:text-start space-y-6 mt-20 md:mt-0">
+			<div className="text-center lg:text-start space-y-6 mt-5 md:mt-0">
 				{/* Chip superior */}
 				<div className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-1 text-xs md:text-sm text-primary">
 					<span className="inline-block h-2 w-2 rounded-full bg-primary animate-pulse" />
@@ -49,7 +49,7 @@ export const Hero = () => {
 					<span
 						className="
 							block
-							text-6xl
+							text-5xl
 							md:text-7xl
 							lg:text-8xl
 							uppercase
@@ -118,12 +118,12 @@ export const Hero = () => {
 							<span>Ofertas constantes</span>
 						</div>
 					</div>
-					<div className="flex items-center gap-2 rounded-xl border border-primary/25 bg-primary/5 px-3 py-2">
+					{/* <div className="flex items-center gap-2 rounded-xl border border-primary/25 bg-primary/5 px-3 py-2">
 						<span className="inline-block h-2 w-2 rounded-full bg-primary" />
 						<p className="leading-snug">
 							Vendedores certificados y soporte contra estafadores.
 						</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 
